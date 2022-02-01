@@ -1,0 +1,8 @@
+file = open("day25file.txt","a")
+# content = file.read()
+# print(file.readline())
+file.write("new line appended successfully")
+file.close()
+file = open("day25file.txt")
+print(file.read())
+file.close()
